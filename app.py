@@ -1,6 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
-from presentacion.marshall import Ventana
+from PyQt5.QtWidgets import QApplication
+from presentacion.Compilador import Ventana
 
 # Comandos para iniciar la Ventana
 if __name__ == '__main__':
@@ -12,6 +12,8 @@ if __name__ == '__main__':
 
     # Mostramos la ventana
     ventana.show()
-
+ 
     # Iniciamos el ciclo de eventos de la aplicación
     sys.exit(app.exec_())
+
+    
